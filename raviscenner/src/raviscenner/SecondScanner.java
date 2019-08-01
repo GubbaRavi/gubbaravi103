@@ -11,6 +11,7 @@ public class SecondScanner {
         x=sc.nextInt();
        System.out.println("enter second number");
        	y=sc.nextInt();
+       
        	sc.close();
        	sub=x-y;
        	System.out.println("display sub number" +sub);
