@@ -5,16 +5,15 @@ import java.util.Scanner;
 public class SecondScanner {
 
 	public static void main(String[] args) {
-	  int x,y, sub;
+	  int a,b, add;
 	  Scanner sc = new Scanner(System.in);
        System.out.println( "enter first number");
-        x=sc.nextInt();
+        a=sc.nextInt();
        System.out.println("enter second number");
-       	y=sc.nextInt();
-       
+       	b=sc.nextInt();
        	sc.close();
-       	sub=x-y;
-       	System.out.println("display sub number" +sub);
+       	add=a+b;
+       	System.out.println("display sub number" +add);
 	
 	}
 
